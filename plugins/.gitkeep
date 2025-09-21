@@ -1,0 +1,3 @@
+# This file ensures the plugins directory is tracked by Git
+# Lavalink will download plugin JAR files to this directory at runtime
+# The .gitkeep file is a common convention to force Git to track empty directories
