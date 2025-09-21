@@ -1,0 +1,13 @@
+# Railway service configuration
+# This file helps Railway understand how to deploy your Lavalink server
+
+[build]
+builder = "dockerfile"
+
+[deploy]
+restartPolicyType = "never"
+healthcheckPath = "/version"
+healthcheckTimeout = 60
+
+# Railway will automatically set the PORT environment variable
+# Make sure to set your other environment variables in the Railway dashboard
